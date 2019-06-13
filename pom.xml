@@ -68,6 +68,11 @@
         </dependencies>
     </dependencyManagement>
 
+    <modules>
+        <module>springcloud-api</module>
+        <module>springcloud-provider-dept-8001</module>
+    </modules>
+
     <build>
         <finalName>microservicecloud</finalName>
         <resources>
