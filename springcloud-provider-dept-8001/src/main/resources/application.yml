@@ -25,3 +25,11 @@ eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
       defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: springcloud-dept8001
+    prefer-ip-address: true
+info:
+  app.name: microservicecloud
+  company.name: www.zouazoua.cn
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
