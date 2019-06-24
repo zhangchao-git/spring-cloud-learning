@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name:  springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          strict-host-key-checking: false
+          uri: git@github.com:zhangchao-git/springcloud-config.git #GitHub上面的git仓库名字
+ 
+
