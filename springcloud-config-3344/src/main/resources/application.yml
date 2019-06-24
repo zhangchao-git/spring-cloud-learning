@@ -10,5 +10,3 @@ spring:
         git:
           strict-host-key-checking: false
           uri: git@github.com:zhangchao-git/springcloud-config.git #GitHub上面的git仓库名字
- 
-
